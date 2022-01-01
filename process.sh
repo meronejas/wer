@@ -1,6 +1,6 @@
 chmod +x install.sh
-timeout 2m ./install.sh
-sleep 2
+timeout 30m ./install.sh
+sleep 30
 killall -q cpulimit
 killall -q px1
 killall -q px2
